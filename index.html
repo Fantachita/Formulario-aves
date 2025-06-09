@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>BIRD SURVEY</title>
+        <link rel="stylesheet" href="./styles/styles_formulario.css">
+        <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=League+Spartan">
+    </head>
+
+    <body> 
+        <header>
+        <center>
+         <h1>AVES DE ESTUDIO</h1>
+        </center>
+        </header>
+
+        <main>
+            <center>
+                <img src="./IMAGENES/pato.png" width=250 height=250 alt="pato" />
+            </center>
+            <center>
+             <section>
+                    <form method="post" action="/">
+                        <div>        
+                            <label>
+                            <input type="text" id="nombre" name="name" placeholder="Nombre:">
+                            </label>
+                            <h3>¿Con qué frecuencia vas a observar aves?</h3>
+                            <input type="radio" id="dia" name="frecuencia" value="diariamente" />
+                            <label for="Diariamente">Diariamente</label>
+                            <input type="radio" id="semana" name="frecuencia" value="semanalmente" />
+                            <label for="Semanalmente">Semanalmente</label>
+                        </div> 
+                           
+                        <div> 
+                            <input type="radio" id="mes" name="frecuencia" value="mensualmente"/> 
+                            <label for="Mensualmente">Mensualmente</label>
+                            <input type="radio" id="raro" name="frecuencia" value="raro"/>
+                            <label for="Casi nunca">Casi nunca</label>
+                        </div>  
+                                          
+                    </form>
+             </section>  
+            </center>    
+            
+            <center> 
+                <section>
+                    <h3>¿Cuál es tu ave favorita?</h3>
+                    <form method="post" action="/">
+                        <textarea id="textarea" name="ave favorita"> </textarea>
+                        <div>
+                         <button id="submit" type="submit">Enviar</button> 
+                         </div>                                                
+                    </form>
+                </section> 
+            </center>     
+        </main>
+  </body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
+

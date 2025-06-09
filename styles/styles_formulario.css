@@ -1,0 +1,40 @@
+h1 {
+    color: #3B2F2F; 
+}
+
+body{
+  background:#FAF3E6;
+  font-family: 'League Spartan', serif;  
+}
+
+h3 {
+    color: #3B2F2F;
+    line-height: 0;    
+}
+
+#nombre {
+   background: #FAF3E6;
+   border: solid 2px #bbaa99;
+   padding: 7px 7px;
+   border-radius: 6px;   
+}
+
+#submit {
+    color: #3B2F2F;
+    outline: #bbaa99;
+    background: #f4a261;
+    padding: 7px 40px;   
+    border-radius: 6px;
+}
+
+#textarea {
+    border: solid 2px #bbaa99;
+    background:#FAF3E6;
+    padding: 7px 7px;
+    border-radius: 6px;
+    width: 210px; 
+    height: 40px;
+    resize: none;
+}
+
+
